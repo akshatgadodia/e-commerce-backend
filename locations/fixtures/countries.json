@@ -1,0 +1,2502 @@
+[
+  {
+    "model": "locations.country",
+    "pk": 1,
+    "fields": {
+      "country_name": "Afghanistan",
+      "currency": "AFN",
+      "currency_name": "Afghan afghani",
+      "phone_code": "93"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 2,
+    "fields": {
+      "country_name": "Aland Islands",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "+358-18"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 3,
+    "fields": {
+      "country_name": "Albania",
+      "currency": "ALL",
+      "currency_name": "Albanian lek",
+      "phone_code": "355"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 4,
+    "fields": {
+      "country_name": "Algeria",
+      "currency": "DZD",
+      "currency_name": "Algerian dinar",
+      "phone_code": "213"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 5,
+    "fields": {
+      "country_name": "American Samoa",
+      "currency": "USD",
+      "currency_name": "US Dollar",
+      "phone_code": "+1-684"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 6,
+    "fields": {
+      "country_name": "Andorra",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "376"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 7,
+    "fields": {
+      "country_name": "Angola",
+      "currency": "AOA",
+      "currency_name": "Angolan kwanza",
+      "phone_code": "244"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 8,
+    "fields": {
+      "country_name": "Anguilla",
+      "currency": "XCD",
+      "currency_name": "East Caribbean dollar",
+      "phone_code": "+1-264"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 9,
+    "fields": {
+      "country_name": "Antarctica",
+      "currency": "AAD",
+      "currency_name": "Antarctican dollar",
+      "phone_code": "672"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 10,
+    "fields": {
+      "country_name": "Antigua And Barbuda",
+      "currency": "XCD",
+      "currency_name": "Eastern Caribbean dollar",
+      "phone_code": "+1-268"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 11,
+    "fields": {
+      "country_name": "Argentina",
+      "currency": "ARS",
+      "currency_name": "Argentine peso",
+      "phone_code": "54"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 12,
+    "fields": {
+      "country_name": "Armenia",
+      "currency": "AMD",
+      "currency_name": "Armenian dram",
+      "phone_code": "374"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 13,
+    "fields": {
+      "country_name": "Aruba",
+      "currency": "AWG",
+      "currency_name": "Aruban florin",
+      "phone_code": "297"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 14,
+    "fields": {
+      "country_name": "Australia",
+      "currency": "AUD",
+      "currency_name": "Australian dollar",
+      "phone_code": "61"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 15,
+    "fields": {
+      "country_name": "Austria",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "43"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 16,
+    "fields": {
+      "country_name": "Azerbaijan",
+      "currency": "AZN",
+      "currency_name": "Azerbaijani manat",
+      "phone_code": "994"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 18,
+    "fields": {
+      "country_name": "Bahrain",
+      "currency": "BHD",
+      "currency_name": "Bahraini dinar",
+      "phone_code": "973"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 19,
+    "fields": {
+      "country_name": "Bangladesh",
+      "currency": "BDT",
+      "currency_name": "Bangladeshi taka",
+      "phone_code": "880"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 20,
+    "fields": {
+      "country_name": "Barbados",
+      "currency": "BBD",
+      "currency_name": "Barbadian dollar",
+      "phone_code": "+1-246"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 21,
+    "fields": {
+      "country_name": "Belarus",
+      "currency": "BYN",
+      "currency_name": "Belarusian ruble",
+      "phone_code": "375"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 22,
+    "fields": {
+      "country_name": "Belgium",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "32"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 23,
+    "fields": {
+      "country_name": "Belize",
+      "currency": "BZD",
+      "currency_name": "Belize dollar",
+      "phone_code": "501"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 24,
+    "fields": {
+      "country_name": "Benin",
+      "currency": "XOF",
+      "currency_name": "West African CFA franc",
+      "phone_code": "229"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 25,
+    "fields": {
+      "country_name": "Bermuda",
+      "currency": "BMD",
+      "currency_name": "Bermudian dollar",
+      "phone_code": "+1-441"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 26,
+    "fields": {
+      "country_name": "Bhutan",
+      "currency": "BTN",
+      "currency_name": "Bhutanese ngultrum",
+      "phone_code": "975"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 27,
+    "fields": {
+      "country_name": "Bolivia",
+      "currency": "BOB",
+      "currency_name": "Bolivian boliviano",
+      "phone_code": "591"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 155,
+    "fields": {
+      "country_name": "Bonaire, Sint Eustatius and Saba",
+      "currency": "USD",
+      "currency_name": "United States dollar",
+      "phone_code": "599"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 28,
+    "fields": {
+      "country_name": "Bosnia and Herzegovina",
+      "currency": "BAM",
+      "currency_name": "Bosnia and Herzegovina convertible mark",
+      "phone_code": "387"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 29,
+    "fields": {
+      "country_name": "Botswana",
+      "currency": "BWP",
+      "currency_name": "Botswana pula",
+      "phone_code": "267"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 30,
+    "fields": {
+      "country_name": "Bouvet Island",
+      "currency": "NOK",
+      "currency_name": "Norwegian Krone",
+      "phone_code": "0055"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 31,
+    "fields": {
+      "country_name": "Brazil",
+      "currency": "BRL",
+      "currency_name": "Brazilian real",
+      "phone_code": "55"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 32,
+    "fields": {
+      "country_name": "British Indian Ocean Territory",
+      "currency": "USD",
+      "currency_name": "United States dollar",
+      "phone_code": "246"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 33,
+    "fields": {
+      "country_name": "Brunei",
+      "currency": "BND",
+      "currency_name": "Brunei dollar",
+      "phone_code": "673"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 34,
+    "fields": {
+      "country_name": "Bulgaria",
+      "currency": "BGN",
+      "currency_name": "Bulgarian lev",
+      "phone_code": "359"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 35,
+    "fields": {
+      "country_name": "Burkina Faso",
+      "currency": "XOF",
+      "currency_name": "West African CFA franc",
+      "phone_code": "226"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 36,
+    "fields": {
+      "country_name": "Burundi",
+      "currency": "BIF",
+      "currency_name": "Burundian franc",
+      "phone_code": "257"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 37,
+    "fields": {
+      "country_name": "Cambodia",
+      "currency": "KHR",
+      "currency_name": "Cambodian riel",
+      "phone_code": "855"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 38,
+    "fields": {
+      "country_name": "Cameroon",
+      "currency": "XAF",
+      "currency_name": "Central African CFA franc",
+      "phone_code": "237"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 39,
+    "fields": {
+      "country_name": "Canada",
+      "currency": "CAD",
+      "currency_name": "Canadian dollar",
+      "phone_code": "1"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 40,
+    "fields": {
+      "country_name": "Cape Verde",
+      "currency": "CVE",
+      "currency_name": "Cape Verdean escudo",
+      "phone_code": "238"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 41,
+    "fields": {
+      "country_name": "Cayman Islands",
+      "currency": "KYD",
+      "currency_name": "Cayman Islands dollar",
+      "phone_code": "+1-345"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 42,
+    "fields": {
+      "country_name": "Central African Republic",
+      "currency": "XAF",
+      "currency_name": "Central African CFA franc",
+      "phone_code": "236"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 43,
+    "fields": {
+      "country_name": "Chad",
+      "currency": "XAF",
+      "currency_name": "Central African CFA franc",
+      "phone_code": "235"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 44,
+    "fields": {
+      "country_name": "Chile",
+      "currency": "CLP",
+      "currency_name": "Chilean peso",
+      "phone_code": "56"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 45,
+    "fields": {
+      "country_name": "China",
+      "currency": "CNY",
+      "currency_name": "Chinese yuan",
+      "phone_code": "86"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 46,
+    "fields": {
+      "country_name": "Christmas Island",
+      "currency": "AUD",
+      "currency_name": "Australian dollar",
+      "phone_code": "61"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 47,
+    "fields": {
+      "country_name": "Cocos (Keeling) Islands",
+      "currency": "AUD",
+      "currency_name": "Australian dollar",
+      "phone_code": "61"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 48,
+    "fields": {
+      "country_name": "Colombia",
+      "currency": "COP",
+      "currency_name": "Colombian peso",
+      "phone_code": "57"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 49,
+    "fields": {
+      "country_name": "Comoros",
+      "currency": "KMF",
+      "currency_name": "Comorian franc",
+      "phone_code": "269"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 50,
+    "fields": {
+      "country_name": "Congo",
+      "currency": "XAF",
+      "currency_name": "Central African CFA franc",
+      "phone_code": "242"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 52,
+    "fields": {
+      "country_name": "Cook Islands",
+      "currency": "NZD",
+      "currency_name": "Cook Islands dollar",
+      "phone_code": "682"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 53,
+    "fields": {
+      "country_name": "Costa Rica",
+      "currency": "CRC",
+      "currency_name": "Costa Rican col\u00f3n",
+      "phone_code": "506"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 54,
+    "fields": {
+      "country_name": "Cote D'Ivoire (Ivory Coast)",
+      "currency": "XOF",
+      "currency_name": "West African CFA franc",
+      "phone_code": "225"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 55,
+    "fields": {
+      "country_name": "Croatia",
+      "currency": "HRK",
+      "currency_name": "Croatian kuna",
+      "phone_code": "385"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 56,
+    "fields": {
+      "country_name": "Cuba",
+      "currency": "CUP",
+      "currency_name": "Cuban peso",
+      "phone_code": "53"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 249,
+    "fields": {
+      "country_name": "Cura\u00e7ao",
+      "currency": "ANG",
+      "currency_name": "Netherlands Antillean guilder",
+      "phone_code": "599"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 57,
+    "fields": {
+      "country_name": "Cyprus",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "357"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 58,
+    "fields": {
+      "country_name": "Czech Republic",
+      "currency": "CZK",
+      "currency_name": "Czech koruna",
+      "phone_code": "420"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 51,
+    "fields": {
+      "country_name": "Democratic Republic of the Congo",
+      "currency": "CDF",
+      "currency_name": "Congolese Franc",
+      "phone_code": "243"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 59,
+    "fields": {
+      "country_name": "Denmark",
+      "currency": "DKK",
+      "currency_name": "Danish krone",
+      "phone_code": "45"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 60,
+    "fields": {
+      "country_name": "Djibouti",
+      "currency": "DJF",
+      "currency_name": "Djiboutian franc",
+      "phone_code": "253"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 61,
+    "fields": {
+      "country_name": "Dominica",
+      "currency": "XCD",
+      "currency_name": "Eastern Caribbean dollar",
+      "phone_code": "+1-767"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 62,
+    "fields": {
+      "country_name": "Dominican Republic",
+      "currency": "DOP",
+      "currency_name": "Dominican peso",
+      "phone_code": "+1-809 and 1-829"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 63,
+    "fields": {
+      "country_name": "East Timor",
+      "currency": "USD",
+      "currency_name": "United States dollar",
+      "phone_code": "670"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 64,
+    "fields": {
+      "country_name": "Ecuador",
+      "currency": "USD",
+      "currency_name": "United States dollar",
+      "phone_code": "593"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 65,
+    "fields": {
+      "country_name": "Egypt",
+      "currency": "EGP",
+      "currency_name": "Egyptian pound",
+      "phone_code": "20"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 66,
+    "fields": {
+      "country_name": "El Salvador",
+      "currency": "USD",
+      "currency_name": "United States dollar",
+      "phone_code": "503"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 67,
+    "fields": {
+      "country_name": "Equatorial Guinea",
+      "currency": "XAF",
+      "currency_name": "Central African CFA franc",
+      "phone_code": "240"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 68,
+    "fields": {
+      "country_name": "Eritrea",
+      "currency": "ERN",
+      "currency_name": "Eritrean nakfa",
+      "phone_code": "291"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 69,
+    "fields": {
+      "country_name": "Estonia",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "372"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 70,
+    "fields": {
+      "country_name": "Ethiopia",
+      "currency": "ETB",
+      "currency_name": "Ethiopian birr",
+      "phone_code": "251"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 71,
+    "fields": {
+      "country_name": "Falkland Islands",
+      "currency": "FKP",
+      "currency_name": "Falkland Islands pound",
+      "phone_code": "500"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 72,
+    "fields": {
+      "country_name": "Faroe Islands",
+      "currency": "DKK",
+      "currency_name": "Danish krone",
+      "phone_code": "298"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 73,
+    "fields": {
+      "country_name": "Fiji Islands",
+      "currency": "FJD",
+      "currency_name": "Fijian dollar",
+      "phone_code": "679"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 74,
+    "fields": {
+      "country_name": "Finland",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "358"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 75,
+    "fields": {
+      "country_name": "France",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "33"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 76,
+    "fields": {
+      "country_name": "French Guiana",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "594"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 77,
+    "fields": {
+      "country_name": "French Polynesia",
+      "currency": "XPF",
+      "currency_name": "CFP franc",
+      "phone_code": "689"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 78,
+    "fields": {
+      "country_name": "French Southern Territories",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "262"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 79,
+    "fields": {
+      "country_name": "Gabon",
+      "currency": "XAF",
+      "currency_name": "Central African CFA franc",
+      "phone_code": "241"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 80,
+    "fields": {
+      "country_name": "Gambia The",
+      "currency": "GMD",
+      "currency_name": "Gambian dalasi",
+      "phone_code": "220"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 81,
+    "fields": {
+      "country_name": "Georgia",
+      "currency": "GEL",
+      "currency_name": "Georgian lari",
+      "phone_code": "995"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 82,
+    "fields": {
+      "country_name": "Germany",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "49"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 83,
+    "fields": {
+      "country_name": "Ghana",
+      "currency": "GHS",
+      "currency_name": "Ghanaian cedi",
+      "phone_code": "233"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 84,
+    "fields": {
+      "country_name": "Gibraltar",
+      "currency": "GIP",
+      "currency_name": "Gibraltar pound",
+      "phone_code": "350"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 85,
+    "fields": {
+      "country_name": "Greece",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "30"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 86,
+    "fields": {
+      "country_name": "Greenland",
+      "currency": "DKK",
+      "currency_name": "Danish krone",
+      "phone_code": "299"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 87,
+    "fields": {
+      "country_name": "Grenada",
+      "currency": "XCD",
+      "currency_name": "Eastern Caribbean dollar",
+      "phone_code": "+1-473"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 88,
+    "fields": {
+      "country_name": "Guadeloupe",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "590"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 89,
+    "fields": {
+      "country_name": "Guam",
+      "currency": "USD",
+      "currency_name": "US Dollar",
+      "phone_code": "+1-671"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 90,
+    "fields": {
+      "country_name": "Guatemala",
+      "currency": "GTQ",
+      "currency_name": "Guatemalan quetzal",
+      "phone_code": "502"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 91,
+    "fields": {
+      "country_name": "Guernsey and Alderney",
+      "currency": "GBP",
+      "currency_name": "British pound",
+      "phone_code": "+44-1481"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 92,
+    "fields": {
+      "country_name": "Guinea",
+      "currency": "GNF",
+      "currency_name": "Guinean franc",
+      "phone_code": "224"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 93,
+    "fields": {
+      "country_name": "Guinea-Bissau",
+      "currency": "XOF",
+      "currency_name": "West African CFA franc",
+      "phone_code": "245"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 94,
+    "fields": {
+      "country_name": "Guyana",
+      "currency": "GYD",
+      "currency_name": "Guyanese dollar",
+      "phone_code": "592"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 95,
+    "fields": {
+      "country_name": "Haiti",
+      "currency": "HTG",
+      "currency_name": "Haitian gourde",
+      "phone_code": "509"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 96,
+    "fields": {
+      "country_name": "Heard Island and McDonald Islands",
+      "currency": "AUD",
+      "currency_name": "Australian dollar",
+      "phone_code": "672"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 97,
+    "fields": {
+      "country_name": "Honduras",
+      "currency": "HNL",
+      "currency_name": "Honduran lempira",
+      "phone_code": "504"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 98,
+    "fields": {
+      "country_name": "Hong Kong S.A.R.",
+      "currency": "HKD",
+      "currency_name": "Hong Kong dollar",
+      "phone_code": "852"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 99,
+    "fields": {
+      "country_name": "Hungary",
+      "currency": "HUF",
+      "currency_name": "Hungarian forint",
+      "phone_code": "36"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 100,
+    "fields": {
+      "country_name": "Iceland",
+      "currency": "ISK",
+      "currency_name": "Icelandic kr\u00f3na",
+      "phone_code": "354"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 101,
+    "fields": {
+      "country_name": "India",
+      "currency": "INR",
+      "currency_name": "Indian rupee",
+      "phone_code": "91"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 102,
+    "fields": {
+      "country_name": "Indonesia",
+      "currency": "IDR",
+      "currency_name": "Indonesian rupiah",
+      "phone_code": "62"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 103,
+    "fields": {
+      "country_name": "Iran",
+      "currency": "IRR",
+      "currency_name": "Iranian rial",
+      "phone_code": "98"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 104,
+    "fields": {
+      "country_name": "Iraq",
+      "currency": "IQD",
+      "currency_name": "Iraqi dinar",
+      "phone_code": "964"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 105,
+    "fields": {
+      "country_name": "Ireland",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "353"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 106,
+    "fields": {
+      "country_name": "Israel",
+      "currency": "ILS",
+      "currency_name": "Israeli new shekel",
+      "phone_code": "972"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 107,
+    "fields": {
+      "country_name": "Italy",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "39"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 108,
+    "fields": {
+      "country_name": "Jamaica",
+      "currency": "JMD",
+      "currency_name": "Jamaican dollar",
+      "phone_code": "+1-876"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 109,
+    "fields": {
+      "country_name": "Japan",
+      "currency": "JPY",
+      "currency_name": "Japanese yen",
+      "phone_code": "81"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 110,
+    "fields": {
+      "country_name": "Jersey",
+      "currency": "GBP",
+      "currency_name": "British pound",
+      "phone_code": "+44-1534"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 111,
+    "fields": {
+      "country_name": "Jordan",
+      "currency": "JOD",
+      "currency_name": "Jordanian dinar",
+      "phone_code": "962"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 112,
+    "fields": {
+      "country_name": "Kazakhstan",
+      "currency": "KZT",
+      "currency_name": "Kazakhstani tenge",
+      "phone_code": "7"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 113,
+    "fields": {
+      "country_name": "Kenya",
+      "currency": "KES",
+      "currency_name": "Kenyan shilling",
+      "phone_code": "254"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 114,
+    "fields": {
+      "country_name": "Kiribati",
+      "currency": "AUD",
+      "currency_name": "Australian dollar",
+      "phone_code": "686"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 248,
+    "fields": {
+      "country_name": "Kosovo",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "383"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 117,
+    "fields": {
+      "country_name": "Kuwait",
+      "currency": "KWD",
+      "currency_name": "Kuwaiti dinar",
+      "phone_code": "965"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 118,
+    "fields": {
+      "country_name": "Kyrgyzstan",
+      "currency": "KGS",
+      "currency_name": "Kyrgyzstani som",
+      "phone_code": "996"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 119,
+    "fields": {
+      "country_name": "Laos",
+      "currency": "LAK",
+      "currency_name": "Lao kip",
+      "phone_code": "856"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 120,
+    "fields": {
+      "country_name": "Latvia",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "371"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 121,
+    "fields": {
+      "country_name": "Lebanon",
+      "currency": "LBP",
+      "currency_name": "Lebanese pound",
+      "phone_code": "961"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 122,
+    "fields": {
+      "country_name": "Lesotho",
+      "currency": "LSL",
+      "currency_name": "Lesotho loti",
+      "phone_code": "266"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 123,
+    "fields": {
+      "country_name": "Liberia",
+      "currency": "LRD",
+      "currency_name": "Liberian dollar",
+      "phone_code": "231"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 124,
+    "fields": {
+      "country_name": "Libya",
+      "currency": "LYD",
+      "currency_name": "Libyan dinar",
+      "phone_code": "218"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 125,
+    "fields": {
+      "country_name": "Liechtenstein",
+      "currency": "CHF",
+      "currency_name": "Swiss franc",
+      "phone_code": "423"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 126,
+    "fields": {
+      "country_name": "Lithuania",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "370"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 127,
+    "fields": {
+      "country_name": "Luxembourg",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "352"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 128,
+    "fields": {
+      "country_name": "Macau S.A.R.",
+      "currency": "MOP",
+      "currency_name": "Macanese pataca",
+      "phone_code": "853"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 130,
+    "fields": {
+      "country_name": "Madagascar",
+      "currency": "MGA",
+      "currency_name": "Malagasy ariary",
+      "phone_code": "261"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 131,
+    "fields": {
+      "country_name": "Malawi",
+      "currency": "MWK",
+      "currency_name": "Malawian kwacha",
+      "phone_code": "265"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 132,
+    "fields": {
+      "country_name": "Malaysia",
+      "currency": "MYR",
+      "currency_name": "Malaysian ringgit",
+      "phone_code": "60"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 133,
+    "fields": {
+      "country_name": "Maldives",
+      "currency": "MVR",
+      "currency_name": "Maldivian rufiyaa",
+      "phone_code": "960"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 134,
+    "fields": {
+      "country_name": "Mali",
+      "currency": "XOF",
+      "currency_name": "West African CFA franc",
+      "phone_code": "223"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 135,
+    "fields": {
+      "country_name": "Malta",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "356"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 136,
+    "fields": {
+      "country_name": "Man (Isle of)",
+      "currency": "GBP",
+      "currency_name": "British pound",
+      "phone_code": "+44-1624"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 137,
+    "fields": {
+      "country_name": "Marshall Islands",
+      "currency": "USD",
+      "currency_name": "United States dollar",
+      "phone_code": "692"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 138,
+    "fields": {
+      "country_name": "Martinique",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "596"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 139,
+    "fields": {
+      "country_name": "Mauritania",
+      "currency": "MRO",
+      "currency_name": "Mauritanian ouguiya",
+      "phone_code": "222"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 140,
+    "fields": {
+      "country_name": "Mauritius",
+      "currency": "MUR",
+      "currency_name": "Mauritian rupee",
+      "phone_code": "230"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 141,
+    "fields": {
+      "country_name": "Mayotte",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "262"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 142,
+    "fields": {
+      "country_name": "Mexico",
+      "currency": "MXN",
+      "currency_name": "Mexican peso",
+      "phone_code": "52"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 143,
+    "fields": {
+      "country_name": "Micronesia",
+      "currency": "USD",
+      "currency_name": "United States dollar",
+      "phone_code": "691"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 144,
+    "fields": {
+      "country_name": "Moldova",
+      "currency": "MDL",
+      "currency_name": "Moldovan leu",
+      "phone_code": "373"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 145,
+    "fields": {
+      "country_name": "Monaco",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "377"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 146,
+    "fields": {
+      "country_name": "Mongolia",
+      "currency": "MNT",
+      "currency_name": "Mongolian t\u00f6gr\u00f6g",
+      "phone_code": "976"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 147,
+    "fields": {
+      "country_name": "Montenegro",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "382"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 148,
+    "fields": {
+      "country_name": "Montserrat",
+      "currency": "XCD",
+      "currency_name": "Eastern Caribbean dollar",
+      "phone_code": "+1-664"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 149,
+    "fields": {
+      "country_name": "Morocco",
+      "currency": "MAD",
+      "currency_name": "Moroccan dirham",
+      "phone_code": "212"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 150,
+    "fields": {
+      "country_name": "Mozambique",
+      "currency": "MZN",
+      "currency_name": "Mozambican metical",
+      "phone_code": "258"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 151,
+    "fields": {
+      "country_name": "Myanmar",
+      "currency": "MMK",
+      "currency_name": "Burmese kyat",
+      "phone_code": "95"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 152,
+    "fields": {
+      "country_name": "Namibia",
+      "currency": "NAD",
+      "currency_name": "Namibian dollar",
+      "phone_code": "264"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 153,
+    "fields": {
+      "country_name": "Nauru",
+      "currency": "AUD",
+      "currency_name": "Australian dollar",
+      "phone_code": "674"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 154,
+    "fields": {
+      "country_name": "Nepal",
+      "currency": "NPR",
+      "currency_name": "Nepalese rupee",
+      "phone_code": "977"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 156,
+    "fields": {
+      "country_name": "Netherlands",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "31"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 157,
+    "fields": {
+      "country_name": "New Caledonia",
+      "currency": "XPF",
+      "currency_name": "CFP franc",
+      "phone_code": "687"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 158,
+    "fields": {
+      "country_name": "New Zealand",
+      "currency": "NZD",
+      "currency_name": "New Zealand dollar",
+      "phone_code": "64"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 159,
+    "fields": {
+      "country_name": "Nicaragua",
+      "currency": "NIO",
+      "currency_name": "Nicaraguan c\u00f3rdoba",
+      "phone_code": "505"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 160,
+    "fields": {
+      "country_name": "Niger",
+      "currency": "XOF",
+      "currency_name": "West African CFA franc",
+      "phone_code": "227"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 161,
+    "fields": {
+      "country_name": "Nigeria",
+      "currency": "NGN",
+      "currency_name": "Nigerian naira",
+      "phone_code": "234"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 162,
+    "fields": {
+      "country_name": "Niue",
+      "currency": "NZD",
+      "currency_name": "New Zealand dollar",
+      "phone_code": "683"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 163,
+    "fields": {
+      "country_name": "Norfolk Island",
+      "currency": "AUD",
+      "currency_name": "Australian dollar",
+      "phone_code": "672"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 115,
+    "fields": {
+      "country_name": "North Korea",
+      "currency": "KPW",
+      "currency_name": "North Korean Won",
+      "phone_code": "850"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 129,
+    "fields": {
+      "country_name": "North Macedonia",
+      "currency": "MKD",
+      "currency_name": "Denar",
+      "phone_code": "389"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 164,
+    "fields": {
+      "country_name": "Northern Mariana Islands",
+      "currency": "USD",
+      "currency_name": "United States dollar",
+      "phone_code": "+1-670"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 165,
+    "fields": {
+      "country_name": "Norway",
+      "currency": "NOK",
+      "currency_name": "Norwegian krone",
+      "phone_code": "47"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 166,
+    "fields": {
+      "country_name": "Oman",
+      "currency": "OMR",
+      "currency_name": "Omani rial",
+      "phone_code": "968"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 167,
+    "fields": {
+      "country_name": "Pakistan",
+      "currency": "PKR",
+      "currency_name": "Pakistani rupee",
+      "phone_code": "92"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 168,
+    "fields": {
+      "country_name": "Palau",
+      "currency": "USD",
+      "currency_name": "United States dollar",
+      "phone_code": "680"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 169,
+    "fields": {
+      "country_name": "Palestinian Territory Occupied",
+      "currency": "ILS",
+      "currency_name": "Israeli new shekel",
+      "phone_code": "970"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 170,
+    "fields": {
+      "country_name": "Panama",
+      "currency": "PAB",
+      "currency_name": "Panamanian balboa",
+      "phone_code": "507"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 171,
+    "fields": {
+      "country_name": "Papua new Guinea",
+      "currency": "PGK",
+      "currency_name": "Papua New Guinean kina",
+      "phone_code": "675"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 172,
+    "fields": {
+      "country_name": "Paraguay",
+      "currency": "PYG",
+      "currency_name": "Paraguayan guarani",
+      "phone_code": "595"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 173,
+    "fields": {
+      "country_name": "Peru",
+      "currency": "PEN",
+      "currency_name": "Peruvian sol",
+      "phone_code": "51"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 174,
+    "fields": {
+      "country_name": "Philippines",
+      "currency": "PHP",
+      "currency_name": "Philippine peso",
+      "phone_code": "63"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 175,
+    "fields": {
+      "country_name": "Pitcairn Island",
+      "currency": "NZD",
+      "currency_name": "New Zealand dollar",
+      "phone_code": "870"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 176,
+    "fields": {
+      "country_name": "Poland",
+      "currency": "PLN",
+      "currency_name": "Polish z\u0142oty",
+      "phone_code": "48"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 177,
+    "fields": {
+      "country_name": "Portugal",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "351"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 178,
+    "fields": {
+      "country_name": "Puerto Rico",
+      "currency": "USD",
+      "currency_name": "United States dollar",
+      "phone_code": "+1-787 and 1-939"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 179,
+    "fields": {
+      "country_name": "Qatar",
+      "currency": "QAR",
+      "currency_name": "Qatari riyal",
+      "phone_code": "974"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 180,
+    "fields": {
+      "country_name": "Reunion",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "262"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 181,
+    "fields": {
+      "country_name": "Romania",
+      "currency": "RON",
+      "currency_name": "Romanian leu",
+      "phone_code": "40"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 182,
+    "fields": {
+      "country_name": "Russia",
+      "currency": "RUB",
+      "currency_name": "Russian ruble",
+      "phone_code": "7"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 183,
+    "fields": {
+      "country_name": "Rwanda",
+      "currency": "RWF",
+      "currency_name": "Rwandan franc",
+      "phone_code": "250"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 184,
+    "fields": {
+      "country_name": "Saint Helena",
+      "currency": "SHP",
+      "currency_name": "Saint Helena pound",
+      "phone_code": "290"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 185,
+    "fields": {
+      "country_name": "Saint Kitts And Nevis",
+      "currency": "XCD",
+      "currency_name": "Eastern Caribbean dollar",
+      "phone_code": "+1-869"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 186,
+    "fields": {
+      "country_name": "Saint Lucia",
+      "currency": "XCD",
+      "currency_name": "Eastern Caribbean dollar",
+      "phone_code": "+1-758"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 187,
+    "fields": {
+      "country_name": "Saint Pierre and Miquelon",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "508"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 188,
+    "fields": {
+      "country_name": "Saint Vincent And The Grenadines",
+      "currency": "XCD",
+      "currency_name": "Eastern Caribbean dollar",
+      "phone_code": "+1-784"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 189,
+    "fields": {
+      "country_name": "Saint-Barthelemy",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "590"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 190,
+    "fields": {
+      "country_name": "Saint-Martin (French part)",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "590"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 191,
+    "fields": {
+      "country_name": "Samoa",
+      "currency": "WST",
+      "currency_name": "Samoan t\u0101l\u0101",
+      "phone_code": "685"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 192,
+    "fields": {
+      "country_name": "San Marino",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "378"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 193,
+    "fields": {
+      "country_name": "Sao Tome and Principe",
+      "currency": "STD",
+      "currency_name": "Dobra",
+      "phone_code": "239"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 194,
+    "fields": {
+      "country_name": "Saudi Arabia",
+      "currency": "SAR",
+      "currency_name": "Saudi riyal",
+      "phone_code": "966"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 195,
+    "fields": {
+      "country_name": "Senegal",
+      "currency": "XOF",
+      "currency_name": "West African CFA franc",
+      "phone_code": "221"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 196,
+    "fields": {
+      "country_name": "Serbia",
+      "currency": "RSD",
+      "currency_name": "Serbian dinar",
+      "phone_code": "381"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 197,
+    "fields": {
+      "country_name": "Seychelles",
+      "currency": "SCR",
+      "currency_name": "Seychellois rupee",
+      "phone_code": "248"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 198,
+    "fields": {
+      "country_name": "Sierra Leone",
+      "currency": "SLL",
+      "currency_name": "Sierra Leonean leone",
+      "phone_code": "232"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 199,
+    "fields": {
+      "country_name": "Singapore",
+      "currency": "SGD",
+      "currency_name": "Singapore dollar",
+      "phone_code": "65"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 250,
+    "fields": {
+      "country_name": "Sint Maarten (Dutch part)",
+      "currency": "ANG",
+      "currency_name": "Netherlands Antillean guilder",
+      "phone_code": "1721"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 200,
+    "fields": {
+      "country_name": "Slovakia",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "421"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 201,
+    "fields": {
+      "country_name": "Slovenia",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "386"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 202,
+    "fields": {
+      "country_name": "Solomon Islands",
+      "currency": "SBD",
+      "currency_name": "Solomon Islands dollar",
+      "phone_code": "677"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 203,
+    "fields": {
+      "country_name": "Somalia",
+      "currency": "SOS",
+      "currency_name": "Somali shilling",
+      "phone_code": "252"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 204,
+    "fields": {
+      "country_name": "South Africa",
+      "currency": "ZAR",
+      "currency_name": "South African rand",
+      "phone_code": "27"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 205,
+    "fields": {
+      "country_name": "South Georgia",
+      "currency": "GBP",
+      "currency_name": "British pound",
+      "phone_code": "500"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 116,
+    "fields": {
+      "country_name": "South Korea",
+      "currency": "KRW",
+      "currency_name": "Won",
+      "phone_code": "82"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 206,
+    "fields": {
+      "country_name": "South Sudan",
+      "currency": "SSP",
+      "currency_name": "South Sudanese pound",
+      "phone_code": "211"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 207,
+    "fields": {
+      "country_name": "Spain",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "34"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 208,
+    "fields": {
+      "country_name": "Sri Lanka",
+      "currency": "LKR",
+      "currency_name": "Sri Lankan rupee",
+      "phone_code": "94"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 209,
+    "fields": {
+      "country_name": "Sudan",
+      "currency": "SDG",
+      "currency_name": "Sudanese pound",
+      "phone_code": "249"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 210,
+    "fields": {
+      "country_name": "Suriname",
+      "currency": "SRD",
+      "currency_name": "Surinamese dollar",
+      "phone_code": "597"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 211,
+    "fields": {
+      "country_name": "Svalbard And Jan Mayen Islands",
+      "currency": "NOK",
+      "currency_name": "Norwegian Krone",
+      "phone_code": "47"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 212,
+    "fields": {
+      "country_name": "Swaziland",
+      "currency": "SZL",
+      "currency_name": "Lilangeni",
+      "phone_code": "268"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 213,
+    "fields": {
+      "country_name": "Sweden",
+      "currency": "SEK",
+      "currency_name": "Swedish krona",
+      "phone_code": "46"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 214,
+    "fields": {
+      "country_name": "Switzerland",
+      "currency": "CHF",
+      "currency_name": "Swiss franc",
+      "phone_code": "41"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 215,
+    "fields": {
+      "country_name": "Syria",
+      "currency": "SYP",
+      "currency_name": "Syrian pound",
+      "phone_code": "963"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 216,
+    "fields": {
+      "country_name": "Taiwan",
+      "currency": "TWD",
+      "currency_name": "New Taiwan dollar",
+      "phone_code": "886"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 217,
+    "fields": {
+      "country_name": "Tajikistan",
+      "currency": "TJS",
+      "currency_name": "Tajikistani somoni",
+      "phone_code": "992"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 218,
+    "fields": {
+      "country_name": "Tanzania",
+      "currency": "TZS",
+      "currency_name": "Tanzanian shilling",
+      "phone_code": "255"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 219,
+    "fields": {
+      "country_name": "Thailand",
+      "currency": "THB",
+      "currency_name": "Thai baht",
+      "phone_code": "66"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 17,
+    "fields": {
+      "country_name": "The Bahamas",
+      "currency": "BSD",
+      "currency_name": "Bahamian dollar",
+      "phone_code": "+1-242"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 220,
+    "fields": {
+      "country_name": "Togo",
+      "currency": "XOF",
+      "currency_name": "West African CFA franc",
+      "phone_code": "228"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 221,
+    "fields": {
+      "country_name": "Tokelau",
+      "currency": "NZD",
+      "currency_name": "New Zealand dollar",
+      "phone_code": "690"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 222,
+    "fields": {
+      "country_name": "Tonga",
+      "currency": "TOP",
+      "currency_name": "Tongan pa\u02bbanga",
+      "phone_code": "676"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 223,
+    "fields": {
+      "country_name": "Trinidad And Tobago",
+      "currency": "TTD",
+      "currency_name": "Trinidad and Tobago dollar",
+      "phone_code": "+1-868"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 224,
+    "fields": {
+      "country_name": "Tunisia",
+      "currency": "TND",
+      "currency_name": "Tunisian dinar",
+      "phone_code": "216"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 225,
+    "fields": {
+      "country_name": "Turkey",
+      "currency": "TRY",
+      "currency_name": "Turkish lira",
+      "phone_code": "90"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 226,
+    "fields": {
+      "country_name": "Turkmenistan",
+      "currency": "TMT",
+      "currency_name": "Turkmenistan manat",
+      "phone_code": "993"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 227,
+    "fields": {
+      "country_name": "Turks And Caicos Islands",
+      "currency": "USD",
+      "currency_name": "United States dollar",
+      "phone_code": "+1-649"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 228,
+    "fields": {
+      "country_name": "Tuvalu",
+      "currency": "AUD",
+      "currency_name": "Australian dollar",
+      "phone_code": "688"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 229,
+    "fields": {
+      "country_name": "Uganda",
+      "currency": "UGX",
+      "currency_name": "Ugandan shilling",
+      "phone_code": "256"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 230,
+    "fields": {
+      "country_name": "Ukraine",
+      "currency": "UAH",
+      "currency_name": "Ukrainian hryvnia",
+      "phone_code": "380"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 231,
+    "fields": {
+      "country_name": "United Arab Emirates",
+      "currency": "AED",
+      "currency_name": "United Arab Emirates dirham",
+      "phone_code": "971"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 232,
+    "fields": {
+      "country_name": "United Kingdom",
+      "currency": "GBP",
+      "currency_name": "British pound",
+      "phone_code": "44"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 233,
+    "fields": {
+      "country_name": "United States",
+      "currency": "USD",
+      "currency_name": "United States dollar",
+      "phone_code": "1"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 234,
+    "fields": {
+      "country_name": "United States Minor Outlying Islands",
+      "currency": "USD",
+      "currency_name": "United States dollar",
+      "phone_code": "1"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 235,
+    "fields": {
+      "country_name": "Uruguay",
+      "currency": "UYU",
+      "currency_name": "Uruguayan peso",
+      "phone_code": "598"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 236,
+    "fields": {
+      "country_name": "Uzbekistan",
+      "currency": "UZS",
+      "currency_name": "Uzbekistani so\u02bbm",
+      "phone_code": "998"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 237,
+    "fields": {
+      "country_name": "Vanuatu",
+      "currency": "VUV",
+      "currency_name": "Vanuatu vatu",
+      "phone_code": "678"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 238,
+    "fields": {
+      "country_name": "Vatican City State (Holy See)",
+      "currency": "EUR",
+      "currency_name": "Euro",
+      "phone_code": "379"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 239,
+    "fields": {
+      "country_name": "Venezuela",
+      "currency": "VES",
+      "currency_name": "Bol\u00edvar",
+      "phone_code": "58"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 240,
+    "fields": {
+      "country_name": "Vietnam",
+      "currency": "VND",
+      "currency_name": "Vietnamese \u0111\u1ed3ng",
+      "phone_code": "84"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 241,
+    "fields": {
+      "country_name": "Virgin Islands (British)",
+      "currency": "USD",
+      "currency_name": "United States dollar",
+      "phone_code": "+1-284"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 242,
+    "fields": {
+      "country_name": "Virgin Islands (US)",
+      "currency": "USD",
+      "currency_name": "United States dollar",
+      "phone_code": "+1-340"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 243,
+    "fields": {
+      "country_name": "Wallis And Futuna Islands",
+      "currency": "XPF",
+      "currency_name": "CFP franc",
+      "phone_code": "681"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 244,
+    "fields": {
+      "country_name": "Western Sahara",
+      "currency": "MAD",
+      "currency_name": "Moroccan Dirham",
+      "phone_code": "212"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 245,
+    "fields": {
+      "country_name": "Yemen",
+      "currency": "YER",
+      "currency_name": "Yemeni rial",
+      "phone_code": "967"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 246,
+    "fields": {
+      "country_name": "Zambia",
+      "currency": "ZMW",
+      "currency_name": "Zambian kwacha",
+      "phone_code": "260"
+    }
+  },
+  {
+    "model": "locations.country",
+    "pk": 247,
+    "fields": {
+      "country_name": "Zimbabwe",
+      "currency": "ZWL",
+      "currency_name": "Zimbabwe Dollar",
+      "phone_code": "263"
+    }
+  }
+]
