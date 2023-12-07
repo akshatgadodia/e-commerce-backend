@@ -3,6 +3,7 @@ from django.contrib.auth.admin import UserAdmin
 from django.urls import reverse
 from django.utils.html import format_html
 
+from users.actions import force_logout_users
 from users.models import User, UserAddresses
 from common.admin import BaseModelAdmin
 
@@ -15,6 +16,7 @@ class CustomUserAdmin(UserAdmin):
     search_fields = ('name', 'email')
     empty_value_display = None
     show_full_result_count = False
+    actions = ('delete_selected', force_logout_users)
     fieldsets = [
         (
             'Personal Info', {

@@ -68,6 +68,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'common.middlewares.force_logout_middleware.ForceLogoutMiddleware',  # Force Logout Middleware
 ]
 
 if DEBUG:
@@ -164,7 +165,7 @@ CELERY_RESULT_BACKEND = config('CELERY_RESULT_BACKEND', default='redis://localho
 
 
 # Media Files
-MEDIA_ROOT = config('MEDIA_ROOT', default='uploads/')
+MEDIA_ROOT = config('MEDIA_ROOT', default='')
 MEDIA_URL = '/media/'
 DATA_UPLOAD_MAX_MEMORY_SIZE = config('MAX_UPLOAD_SIZE', default=5242880)
 

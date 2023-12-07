@@ -17,6 +17,9 @@ class User(AbstractUser):
     name = models.CharField(max_length=200)
     date_of_birth = models.DateField()
     image = models.ImageField()
+    password_reset_key = models.IntegerField(null=True)
+    password_reset_key_generated_on = models.DateTimeField(null=True)
+    forced_logout_time = models.DateTimeField(null=True, blank=True)
 
     # TimeStamp Fields
     created_at = models.DateTimeField(auto_now_add=True)

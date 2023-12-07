@@ -52,3 +52,7 @@ data/
 **/migrations/*
 # Don't ignore __init__.py
 !**/migrations/__init__.py
+
+# Media Files
+/uploads/*
+!/uploads/.gitkeep
