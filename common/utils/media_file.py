@@ -8,16 +8,22 @@ from common.logger import LogInfo
 
 def save_file(file, file_dir):
     """
-    Save file to the default media folder
-    args:
-        file: file object to be saved
-        file_dir: directory name to be stored in
+    Save a file to the default media folder.
+    Args:
+        file: File object to be saved.
+        file_dir: Directory name to be stored in.
+    Returns:
+        str or False: The file path if successful, False if an exception occurs.
     """
     try:
+        # Generate a unique filename using UUID and original file extension
         filename = str(uuid.uuid4()) + "." + file.name.split('.')[-1]
+
         if settings.STORE_MEDIA_IN_S3:
+            # Save file to S3 if configured to store media in S3
             return default_storage.save(f"{file_dir}/{filename}", file)
         else:
+            # Save file to the default media folder if not storing in S3
             dir_path = os.path.join(settings.MEDIA_ROOT, file_dir)
             if not os.path.isdir(dir_path):
                 os.mkdir(dir_path)
@@ -28,12 +34,20 @@ def save_file(file, file_dir):
 
 
 def delete_file(file_name):
+    """
+    Delete a file from the default media folder or S3 bucket.
+    Args:
+        file_name: Name of the file to be deleted.
+    Returns:
+        None
+    """
     try:
         if settings.STORE_MEDIA_IN_S3:
             # s3_client = get_s3_client_object()
             # s3_client.delete_object(Bucket=settings.AWS_STORAGE_BUCKET_NAME, Key=file_name)
             pass
         else:
+            # Delete file from the default media folder if not storing in S3
             file_path = os.path.join(settings.MEDIA_ROOT, file_name)
             if os.path.exists(file_path):
                 os.remove(file_path)

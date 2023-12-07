@@ -8,8 +8,10 @@ from common.constants import DEFAULT_SINGLETON_INSTANCE_ID
 from users.models import User
 
 
-# Base model for adding timestamp fields (created_at, updated_at) to other models
 class TimestampModel(models.Model):
+    """
+    Abstract base model that includes timestamp fields (created_at, updated_at).
+    """
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
@@ -17,8 +19,10 @@ class TimestampModel(models.Model):
         abstract = True
 
 
-# Base model for adding created_by, updated_by field to other models
 class CreatedByUpdatedBy(models.Model):
+    """
+    Abstract base model that includes created_by and updated_by fields.
+    """
     created_by = models.ForeignKey(User, on_delete=models.SET_NULL, related_name='%(class)s_created', null=True)
     updated_by = models.ForeignKey(User, on_delete=models.SET_NULL, related_name='%(class)s_updated', null=True,
                                    blank=True)
@@ -27,8 +31,10 @@ class CreatedByUpdatedBy(models.Model):
         abstract = True
 
 
-# Base model for implementing soft delete functionality
 class SoftDeleteModel(models.Model):
+    """
+    Abstract base model that includes soft delete functionality.
+    """
     is_deleted = models.BooleanField(default=False)
     deleted_at = models.DateTimeField(null=True, blank=True)
     deleted_by = models.ForeignKey(User, on_delete=models.SET_NULL, related_name='%(class)s_deleted', null=True,
@@ -74,6 +80,9 @@ class BaseModel(TimestampModel, CreatedByUpdatedBy, SoftDeleteModel):
 
 
 class SingletonModel(models.Model):
+    """
+    Abstract base model for creating singleton models.
+    """
     # Singleton instance ID field
     singleton_instance_id = DEFAULT_SINGLETON_INSTANCE_ID
 
@@ -81,22 +90,33 @@ class SingletonModel(models.Model):
         abstract = True
 
     def save(self, *args, **kwargs):
+        """
+        Save method to ensure the primary key is always set to the singleton instance ID.
+        """
         # Ensure the primary key is always set to the singleton instance ID
         self.pk = self.singleton_instance_id
         super(SingletonModel, self).save(*args, **kwargs)
 
     def delete(self, *args, **kwargs):
-        # Disable the delete method to prevent deletion of the singleton instance
+        """
+        Disable the delete method to prevent deletion of the singleton instance
+        """
         pass
 
     @classmethod
     def load(cls):
-        # Retrieve or create the singleton instance
-        obj, created = cls.objects.get_or_create(pk=cls.singleton_instance_id)
-        return obj
+    """
+    Retrieve or create the singleton instance
+    """
+    obj, created = cls.objects.get_or_create(pk=cls.singleton_instance_id)
+    return obj
 
 
 class SiteConfiguration(SingletonModel, TimestampModel, CreatedByUpdatedBy):
+    """
+    Model for site configuration with timestamp, created/updated by, and singleton functionality.
+    """
+
     # Boolean field to determine whether to bypass API permissions
     bypass_api_permissions = models.BooleanField(default=True)
 
@@ -107,7 +127,9 @@ class SiteConfiguration(SingletonModel, TimestampModel, CreatedByUpdatedBy):
     latest_ios_version = models.CharField(max_length=20, default="0.0.0")
 
     def __str__(self):
-        # String representation of the model
+        """
+        String representation of the model
+        """
         return "Site Configuration"
 
     class Meta:
