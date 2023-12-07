@@ -105,11 +105,11 @@ class SingletonModel(models.Model):
 
     @classmethod
     def load(cls):
-    """
-    Retrieve or create the singleton instance
-    """
-    obj, created = cls.objects.get_or_create(pk=cls.singleton_instance_id)
-    return obj
+        """
+        Retrieve or create the singleton instance
+        """
+        obj, created = cls.objects.get_or_create(pk=cls.singleton_instance_id)
+        return obj
 
 
 class SiteConfiguration(SingletonModel, TimestampModel, CreatedByUpdatedBy):
