@@ -1,9 +1,8 @@
 from django.db import models
-from django.utils.translation import gettext_lazy as _
 
 from locations.models import City
 from users.models.user import User
-from common.models import TimestampModel, CreatedByUpdatedBy, SoftDeleteModel
+from common.models import TimestampModel, SoftDeleteModel
 
 
 class UserAddresses(TimestampModel, SoftDeleteModel):
@@ -30,3 +29,13 @@ class UserAddresses(TimestampModel, SoftDeleteModel):
     def __str__(self):
         # String representation of the user address, using the name field
         return self.name
+
+
+class UserSubscriberID(TimestampModel, SoftDeleteModel):
+    # ForeignKey to the User model, specifying that if the referenced user is deleted,
+    # also delete the user addresses associated with it
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    subscriber_id = models.CharField(max_length=100, null=True, blank=True)
+
+
+

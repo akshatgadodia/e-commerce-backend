@@ -47,12 +47,17 @@ INSTALLED_APPS = [
     # Installed Apps
     'rest_framework',
     'drf_yasg',
+    'ckeditor',
+    'image_uploader_widget',
 
     # Created Apps
     'users',
+    'notifications',
     'common',
     'locations',
     'products',
+    'orders',
+    'shipments',
 ]
 
 MIDDLEWARE = [
@@ -153,7 +158,36 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # This allows the toolbar to be displayed for requests from this IP address.
 INTERNAL_IPS = ('127.0.0.1', '0.0.0.0', 'localhost',)
 
-
 # Celery Settings
 CELERY_BROKER_URL = config('CELERY_BROKER_URL', default='redis://localhost:6379')
 CELERY_RESULT_BACKEND = config('CELERY_RESULT_BACKEND', default='redis://localhost:6379')
+
+
+# Media Files
+MEDIA_ROOT = config('MEDIA_ROOT', default='uploads/')
+MEDIA_URL = '/media/'
+DATA_UPLOAD_MAX_MEMORY_SIZE = config('MAX_UPLOAD_SIZE', default=5242880)
+
+# Default Storage
+STORE_MEDIA_IN_S3 = config('STORE_MEDIA_IN_S3', default=False, cast=bool)
+
+if STORE_MEDIA_IN_S3:
+    # Amazon S3
+    AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID')
+    AWS_SECRET_ACCESS_KEY = config('AWS_SECRET_ACCESS_KEY')
+    AWS_S3_REGION_NAME = config('AWS_S3_REGION_NAME')
+    AWS_STORAGE_BUCKET_NAME = config('AWS_S3_BUCKET_NAME', default='aurigaone')
+    AWS_S3_CUSTOM_DOMAIN = 'https://%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
+    AWS_S3_SIGNATURE_NAME = 's3v4'
+    AWS_S3_FILE_OVERWRITE = config('AWS_S3_FILE_OVERWRITE', default=False)
+
+    MEDIAFILES_LOCATION = ''
+    DEFAULT_FILE_STORAGE = 'base.storage_backends.MediaStorage'
+
+# Mail
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_HOST = config('EMAIL_HOST', default='email-smtp.us-east-1.amazonaws.com')
+# EMAIL_PORT = config('EMAIL_PORT', default=465, cast=int)
+# EMAIL_USE_SSL = config('EMAIL_USE_SSL', default=True, cast=bool)
+# EMAIL_HOST_USER = config('EMAIL_HOST_USER')
+# EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')

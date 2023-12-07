@@ -4,19 +4,21 @@ from django.utils.html import format_html
 from django.utils.functional import SimpleLazyObject
 
 from common.admin import BaseModelAdmin
+from products.admin_inlines import ProductImageInline
 from products.models import ProductCategories, ProductInventory, ProductDiscount, Product
-from products.forms import ProductForm
+from products.forms import ProductForm, ProductCategoriesForm
 
 
 @admin.register(ProductCategories)
 class ProductCategoriesAdmin(BaseModelAdmin):
+    form = ProductCategoriesForm
     list_display = ('name', 'description', 'parent_category_link')
     search_fields = ('name',)
     list_select_related = ('parent_category',)
     fieldsets = [
         (
             'Product Category', {
-                'fields': ('name', 'description', 'parent_category'),
+                'fields': ('name', 'parent_category', 'description',),
             }
         ),
     ]
@@ -52,9 +54,21 @@ class ProductAdmin(BaseModelAdmin):
     list_display = ['name', 'category_link', 'quantity_available', 'minimum_quantity',
                     'send_low_inventory_alert', 'active']
     list_filter = ('category', 'active', 'inventory__send_alert')
-    search_fields = ['name', 'category__name']  # Assuming there's a ForeignKey named 'category' in Product
+    search_fields = ['name', 'category__name']
     list_select_related = ('category', 'inventory')
     filter_horizontal = ('discount',)
+    inlines = (ProductImageInline,)
+    fieldsets = [
+        ('Product Info', {
+            'fields': ('name', 'category', 'description', 'active')
+        }),
+        ('Inventory Info', {
+            'fields': ('quantity', 'min_quantity', 'send_low_inventory_alert')
+        }),
+        ('Discounts', {
+            'fields': ('discount',)
+        }),
+    ]
 
     def get_queryset(self, request):
         return Product.objects.get_all_non_deleted_queryset()

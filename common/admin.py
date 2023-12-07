@@ -120,9 +120,14 @@ class SiteConfigurationAdmin(SingletonModelAdmin):
     fieldsets = [
         (
             'Site Configurations', {
-                'fields': ('bypass_api_permissions', 'min_android_version', 'min_ios_version', 'latest_android_version',
+                'fields': ('bypass_api_permissions',)
+            },
+        ),
+        (
+            'APP Configurations', {
+                'fields': ('min_android_version', 'min_ios_version', 'latest_android_version',
                            'latest_ios_version')
-            }
+            },
         ),
     ]
     formfield_overrides = {

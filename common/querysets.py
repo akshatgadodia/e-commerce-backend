@@ -62,3 +62,7 @@ class SoftDeletionQuerySet(QuerySet):
             SoftDeletionQuerySet: A queryset of deleted objects.
         """
         return self.exclude(is_deleted=False)
+
+
+class BaseQueryset(SoftDeletionQuerySet):
+    pass

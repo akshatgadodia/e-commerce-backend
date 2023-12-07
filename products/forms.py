@@ -1,8 +1,19 @@
 from django import forms
 from django.shortcuts import get_object_or_404
+from ckeditor.widgets import CKEditorWidget
+from image_uploader_widget.widgets import ImageUploaderWidget
 
-from products.models import Product, ProductInventory
+from products.models import Product, ProductInventory, ProductMedia, ProductCategories
 from products.messages import QUANTITY_AND_MIN_QUANTITY_REQUIRED
+
+
+class ProductCategoriesForm(forms.ModelForm):
+    class Meta:
+        model = ProductCategories
+        fields = ['name', 'description', 'parent_category']
+        widgets = {
+            'description': CKEditorWidget(),
+        }
 
 
 class ProductForm(forms.ModelForm):
@@ -34,3 +45,21 @@ class ProductForm(forms.ModelForm):
     class Meta:
         model = Product
         fields = ['name', 'description', 'category', 'quantity', 'min_quantity', 'send_low_inventory_alert', 'discount']
+        widgets = {
+            'description': CKEditorWidget(),
+        }
+
+
+class ProductMediaForm(forms.ModelForm):
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.fields['order'].required = False
+        self.fields['order'].initial = 0
+
+    class Meta:
+        model = ProductMedia
+        fields = ('id', 'product', 'media', 'order')
+        widgets = {
+            'media': ImageUploaderWidget(),
+        }

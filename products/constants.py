@@ -1,0 +1,1 @@
+PRODUCT_MEDIA_ALLOWED_FORMATS_FORM = 'image/*,video/*'

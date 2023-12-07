@@ -1,11 +1,10 @@
 from django.contrib.auth.models import BaseUserManager
-from django.utils.translation import gettext_lazy as _
 
-from common.managers import SoftDeletionManager
+from common.managers import BaseManager
 
 
 # Custom Base User Manager
-class UserManager(SoftDeletionManager, BaseUserManager):
+class UserManager(BaseManager, BaseUserManager):
     """
     Custom Manager for custom user class
     """

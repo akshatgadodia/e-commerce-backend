@@ -1,0 +1,8 @@
+.notification-action .form-group textarea{
+    padding: 10px;
+    cursor: default;
+    background-color: rgba(239, 239, 239, 0.3);
+    color:rgb(84, 84, 84);
+    border-color: rgba(118, 118, 118, 0.3);
+    border-radius: 0.25rem;
+}

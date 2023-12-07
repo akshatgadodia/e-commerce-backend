@@ -1,0 +1,101 @@
+{% extends "admin/base_site.html" %}
+{% load i18n l10n admin_urls static jazzmin %}
+{% get_jazzmin_ui_tweaks as jazzmin_ui %}
+
+{% block extrahead %}
+    {{ block.super }}
+    {{ media }}
+    <script type="text/javascript">
+        try {
+            var dynamicVariables = JSON.parse('{{ dynamic_variables|escapejs }}');
+        } catch (err) {
+            console.error(err)
+        }
+    </script>
+{% endblock %}
+
+{% block extrastyle %}
+    <link rel="stylesheet" href="{% static "notifications/css/action_broadcast_notification.css" %}">
+
+{% endblock %}
+
+{% block extrajs %}
+    <script src="{% static 'notifications/js/broadcast_action_notification_templates.js' %}"></script>
+{% endblock %}
+
+{% block bodyclass %}{{ block.super }} app-{{ opts.app_label }} model-{{ opts.model_name }}
+    notification-action{% endblock %}
+
+{% block breadcrumbs %}
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{% url 'admin:index' %}">{% trans 'Home' %}</a></li>
+        <li class="breadcrumb-item"><a
+                href="{% url 'admin:app_list' app_label=opts.app_label %}">{{ opts.app_config.verbose_name }}</a></li>
+        <li class="breadcrumb-item"><a
+                href="{% url opts|admin_urlname:'changelist' %}">{{ opts.verbose_name_plural|capfirst }}</a></li>
+        <li class="breadcrumb-item active">{% trans 'Broadcasting Notification' %}</li>
+    </ol>
+{% endblock %}
+
+{% block content_title %} {{ title }} {% endblock %}
+
+
+{% block content %}
+
+    <div class="col-12">
+        <div class="card card-info card-outline">
+            <div class="card-header with-border">
+                <h4 class="card-title">
+                    {% trans 'Broadcasting a Notification' %}
+                </h4>
+            </div>
+
+            <div class="card-body">
+                <div id="content-main">
+                    <div class="row">
+                        <div class="col-12 col-sm-8">
+                            <form action="" method="post" enctype="multipart/form-data">
+                                {% csrf_token %}
+                                <p>Please enter the notification title and content</p>
+
+                                <div class="form-group d-flex flex-column">
+                                    <label for="id_notification_content">{{ form.notification_title.label_tag }}</label>
+                                    {{ form.notification_title }}
+                                </div>
+                                <div class="form-group d-flex flex-column">
+                                    <label for="id_notification_content">
+                                        {{ form.notification_content.label_tag }} <span class="text-red">* </span>
+                                    </label>
+                                    {{ form.notification_content }}
+                                </div>
+                                <div class="form-group d-flex flex-column">
+                                    <label class="required" for="id_notification_image">{{ form.notification_image.label_tag }}</label>
+                                    {{ form.notification_image }}
+                                </div>
+                                {% for hidden_field in form.hidden_fields %}
+                                    {{ hidden_field }}
+                                {% endfor %}
+
+                                <input type="hidden" name="action" value="{{ action_name }}">
+
+                                <div class="form-group">
+                                    <input type="submit"
+                                           class="btn {{ jazzmin_ui.button_classes.success }} form-control"
+                                           name="apply" value="{% trans 'Send' %}">
+                                </div>
+                                <div class="form-group">
+                                    <a href="#"
+                                       class="btn {{ jazzmin_ui.button_classes.info }} cancel-link form-control">{% trans "No, take me back" %}</a>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-sm-4">
+                                <p>{% blocktrans %}Notification will be sent to these users.{% endblocktrans %}</p>
+                                {{ items|unordered_list }}
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

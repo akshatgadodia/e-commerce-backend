@@ -1,0 +1,13 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'notifications/css/custom_template_content_widget.css' %}">
+<div class="custom-template-widget notificationTemplateDropdown" style="display: none">
+    <div class="btn-group">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+            Insert Dynamic Variable
+        </button>
+        <ul class="dropdown-menu" id="templateContentMenu" aria-labelledby="templateContentButton">
+        </ul>
+    </div>
+    <textarea id="id_{{ widget.name }}" name="{{ widget.name }}" required="{{ widget.required }}" cols="40" rows="10">{% if widget.value %}{{ widget.value }}{% endif %}</textarea>
+</div>

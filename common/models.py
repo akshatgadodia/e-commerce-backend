@@ -2,7 +2,7 @@ from datetime import datetime
 from django.db import models
 from django.db.models.deletion import Collector
 
-from common.managers import SoftDeletionManager
+from common.managers import BaseManager
 from common.utils import manage_delete_dependency
 from common.constants import DEFAULT_SINGLETON_INSTANCE_ID
 from users.models import User
@@ -34,8 +34,8 @@ class SoftDeleteModel(models.Model):
     deleted_by = models.ForeignKey(User, on_delete=models.SET_NULL, related_name='%(class)s_deleted', null=True,
                                    blank=True)
 
-    objects = SoftDeletionManager()
-    all_objects = SoftDeletionManager(non_deleted_only=False)
+    objects = BaseManager()
+    all_objects = BaseManager(non_deleted_only=False)
 
     class Meta:
         abstract = True

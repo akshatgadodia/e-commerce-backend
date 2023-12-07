@@ -1,14 +1,16 @@
 from django.db import models
+from ckeditor.fields import RichTextField
 
 from common.models import BaseModel
 from products.managers import ProductDiscountManager, ProductManager
+from products.utils import UniqueFilename
 
 
 class ProductCategories(BaseModel):
     # Category name
     name = models.CharField(max_length=255)
     # Category description
-    description = models.TextField()
+    description = RichTextField()
     # Parent category (self-referential relationship for subcategories)
     parent_category = models.ForeignKey('self', null=True, blank=True, related_name='subcategories',
                                         on_delete=models.CASCADE)
@@ -80,7 +82,7 @@ class Product(BaseModel):
     # Product name
     name = models.CharField(max_length=255)
     # Product description
-    description = models.TextField()
+    description = RichTextField()
     # Category to which the product belongs
     category = models.ForeignKey(ProductCategories, on_delete=models.CASCADE)
     # One-to-one relationship with product inventory
@@ -102,3 +104,22 @@ class Product(BaseModel):
         ordering = ['name']
         verbose_name = 'Product'
         verbose_name_plural = 'Products'
+
+
+class ProductMedia(BaseModel):
+    # Reference to the product
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+
+    # URL or path to the image
+    media = models.FileField(upload_to=UniqueFilename())
+
+    # Order of the image for the product
+    order = models.IntegerField(default=0)
+
+    def __str__(self):
+        return f"Image for {self.product.name}"
+
+    class Meta:
+        ordering = ('order',)
+        verbose_name = 'Product Media'
+        verbose_name_plural = 'Product Media'
