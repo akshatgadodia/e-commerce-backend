@@ -1,6 +1,7 @@
 from datetime import datetime
 from django.db import models
 from django.db.models.deletion import Collector
+from django.utils.translation import gettext_lazy as _
 
 from common.managers import BaseManager
 from common.utils import manage_delete_dependency
@@ -130,8 +131,8 @@ class SiteConfiguration(SingletonModel, TimestampModel, CreatedByUpdatedBy):
         """
         String representation of the model
         """
-        return "Site Configuration"
+        return _("Site Configuration")
 
     class Meta:
-        verbose_name = 'Site Configuration'
-        verbose_name_plural = 'Site Configurations'
+        verbose_name = _('Site Configuration')
+        verbose_name_plural = _('Site Configurations')
